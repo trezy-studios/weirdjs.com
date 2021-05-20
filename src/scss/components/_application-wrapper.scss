@@ -1,0 +1,25 @@
+#application-wrapper {
+	display: grid;
+	font-family: var(--main-font-family);
+	font-size: var(--main-font-size);
+	grid-template-areas:
+		'application-banner application-banner'
+		'application-navigation main-content';
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto 1fr;
+	height: 100vh;
+	overflow: hidden;
+	width: 100vw;
+
+	#application-banner {
+		grid-area: application-banner;
+	}
+
+	#application-navigation {
+		grid-area: application-navigation;
+	}
+
+	main {
+		grid-area: main-content;
+	}
+}

@@ -1,0 +1,14 @@
+section {
+	background-color: var(--background-color);
+	// background-image: linear-gradient(
+	// 	to bottom right,
+	// 	var(--background-color) 70%,
+	// 	var(--background-color-darker)
+	// );
+	// border-bottom: 1px solid #B09B12;
+	border-radius: 0.2rem;
+	color: var(--text-color);
+	padding:
+		var(--mini-gutter) // top/bottom
+		var(--gutter); // right/left
+}

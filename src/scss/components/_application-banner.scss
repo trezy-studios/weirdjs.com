@@ -1,0 +1,10 @@
+#application-banner {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	display: flex;
+	padding: var(--mini-gutter);
+
+	nav.social-links {
+		margin-left: auto;
+	}
+}

@@ -1,0 +1,8 @@
+.card-list {
+	display: flex;
+	gap: var(--mini-gutter);
+
+	.card {
+		height: 100%;
+	}
+}

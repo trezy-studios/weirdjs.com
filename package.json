@@ -1,0 +1,21 @@
+{
+  "name": "weirdjs.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "dev": "next"
+  },
+  "dependencies": {
+    "@googleapis/youtube": "^2.0.0",
+    "faker": "^5.5.3",
+    "firebase": "^9.0.0-beta.1",
+    "micro-cors": "^0.1.1",
+    "next": "^10.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.32.12",
+    "xml-js": "^1.6.11"
+  }
+}

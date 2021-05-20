@@ -1,0 +1,23 @@
+#application-navigation {
+	background-color: var(--background-color);
+	display: flex;
+	flex-direction: column;
+
+	a {
+		background-color: transparent;
+		color: var(--text-color);
+		padding:
+			var(--mini-gutter) // top
+			var(--gutter) // right
+			var(--mini-gutter) // bottom
+			var(--mini-gutter); // left
+		text-decoration: none;
+		transition-duration: 0.2s;
+		transition-property: background-color;
+
+		// &:hover {
+		// 	background-color: #fcdc00;
+		// 	color: #181818;
+		// }
+	}
+}
